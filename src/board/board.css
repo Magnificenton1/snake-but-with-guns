@@ -1,0 +1,25 @@
+
+.board{
+    border: solid red 1px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.cell{
+    height: 25px;
+    width: 25px;
+    border: solid blue 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightblue;
+}
+.expanded{
+    background-color: gold;
+}
+.snake{
+    background-color: green;
+}
